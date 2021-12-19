@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --gradient-edge: hsl(234, 26%, 23%);
+    --gradient-quarter: hsl(304, 26%, 23%);
+    --gradient-middle: hsl(374, 26%, 23%);
+    --font-color: white;
+}
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    /* color: var(--font-color); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 200vh;
+    /* background: no-repeat
+    linear-gradient(var(--gradient-edge), var(--gradient-quarter) 25%,
+    var(--gradient-middle) 50%, var(--gradient-quarter) 75%,var(--gradient-edge)); */
+}
+
+header {
+    text-align: center;
+    padding: calc(50vh - 4rem) 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 0;
+}
